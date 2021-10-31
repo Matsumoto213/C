@@ -1,0 +1,3 @@
+git add .
+git commit -a -m "10月31日の更新"
+git push origin main
