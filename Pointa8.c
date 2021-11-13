@@ -12,6 +12,11 @@ int iscanf(void){
 }
 
 int main(void){
-    printf("");
+    int a = 70;
+    printf("aには70が入っています\n");
+
+    int* addrA = &a;
+    printf("変数aのアドレス%p\n",addrA);
+    printf("%p番地にはいているのは%dです",addrA,*addrA);
     return 0;
 }

@@ -12,6 +12,7 @@ int iscanf(void){
 }
 
 int main(void){
-    printf("");
+    int* p = 0;
+    printf("%d\n", *p);
     return 0;
 }
