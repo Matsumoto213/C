@@ -7,6 +7,7 @@ typedef char String[1024];
 
 
 // iscanf関数は使う回数が多そうなのでたくさん使用できそう
+// iscanf関数の原点
 int iscanf(void){
     String inputstr;
     scanf("%s",inputstr);

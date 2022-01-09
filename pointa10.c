@@ -5,11 +5,10 @@
 
 typedef char String[1024];
 
-// int iscanf(void){
-//     String inputstr;
-//     scanf("%s",inputstr);
-//     return atoi(inputstr);
-// }
-
 int main(void){
+    int i[3] = {1, 2, 3};
+    printf("%p\n", i);
+    printf("%d\n", *i);
+
+
 }

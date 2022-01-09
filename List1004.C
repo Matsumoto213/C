@@ -10,6 +10,16 @@ typedef char String[1024];
 //     scanf("%s",inputstr);
 //     return atoi(inputstr);
 // }
+int* readyAges(void)
+{
+    int ages[4];
+    return ages;
+}
+
 
 int main(void){
+    int* a = readyAges();
+    a[0] = 19;
+    return 0;
+    // cout << x << endl;
 }
